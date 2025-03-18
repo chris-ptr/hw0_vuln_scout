@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'tidepool/mailer:master-latest'
+          default: 'uber/web-base-image:20.11.1-buster'
 
 # env:
 #   REGISTRY: ghcr.io
